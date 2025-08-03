@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<link lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Portfolio</title>
+    <!-- to font owesome for inserting icons-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- link to css for style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Novigotion -->
+     <nav>
+        <div class="logo">NEON<span>DEV</span></div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>Abdallah Mahmoud</span><br>Web Developer</h1>
+            <p>I create immersive digital experiences with cutting-edge
+                web technologies. My passion is turning ideas into
+                interactive realities that captivate users.</p>
+                <a href="contact" class="cta-button">Get In Touch</a>
+        </div>
+
+        <div class="profile-container">
+            <div class="profile-border"></div>
+            <div class="tech-icons">
+                <i class="tech-icon" style="top: 0; left: 50%; 
+                transform: translateX(-50%);">⚛</i>
+                <i class="tech-icon" style="top: 50%; right: 0; 
+                transform: translateY(-50%);">💻</i>
+                <i class="tech-icon" style="bottom: 0; left: 50%; 
+                transform: translateX(-50%);">🔌</i>
+                <i class="tech-icon" style="top: 50%; left: 0; 
+                transform: translateY(-50%);">🎨</i>
+            </div>
+            <img src="profile.jpg" alt="Profile Picture" width="300px" class="profile-pic">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate full-stack developer with 5+ years
+                    of experience creating dynamic wep applications.
+                    My journey in tech began when I built my first 
+                    website at 15, and I've been hooked ever since.
+                </p>
+                <p>
+                    I specialize in modern JavaScript frameworks and have a 
+                    keen eye for design. My  approach combines technical 
+                    expertise with creative problem-solving to deliver exceptional user experiences.
+                </p>
+                <p>
+                    When I'm not coding, you can find me contributing
+                    to open-source projects, attending tech meetups, or
+                    exploring the latest in VR development.
+                </p>
+            </div>
+            <div class="skills">
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>React</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Node.js</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>UI/UX Design</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <!-- 1st card -->
+            <div class="project-card">
+                <img src="1.avif" alt="Project 1" height="200px" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">Neon Dashboard</h3>
+                    <p class="project-description">A modern admin dashboard with real-time analytics and customizable widgets built 
+                        with React and D3.js</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fa-solid fa-up-right-from-square"></i>Live Demo</a>
+                            <a href="#" class="project-link"><i class="fa-brands fa-github"></i>Code</a>
+                        </div>
+                </div>
+            </div>
+            <!-- 2nd card -->
+            <div class="project-card">
+                <img src="2.avif" alt="Project 2" height="200px" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">VR Portfolio</h3>
+                    <p class="project-description">An immersive virtual reality portfolio experience built with Three.js and WebXR.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Three.js</span>
+                            <span class="tech-tag">WebXR</span>
+                            <span class="tech-tag">GSAP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fa-solid fa-up-right-from-square"></i>Live Demo</a>
+                            <a href="#" class="project-link"><i class="fa-brands fa-github"></i>Code</a>
+                        </div>
+                </div>
+            </div>
+            <!-- 3rd card -->
+            <div class="project-card">
+                <img src="3.avif" alt="Project 3" height="200px" class="project-img">
+                <div class="project-info">
+                    <h3 class="project-title">CodeCollab</h3>
+                    <p class="project-description">A real-time collaborative code editor with video chat functionality using WebSockets 
+                        and WebRTC.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                            <span class="tech-tag">WebRTC</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fa-solid fa-up-right-from-square"></i>Live Demo</a>
+                            <a href="#" class="project-link"><i class="fa-brands fa-github"></i>Code</a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+
+        <form class="contact-form">
+
+            <div class="form-group">
+                <label for="name" class="from-label">Name</label>
+                <input type="text" id="name" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" class="form-input" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-textarea" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-link"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/201127393949" class="social-link"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://wa.me/201127393949" target="_blank" class="whatsapp-button">
+                💬 تواصل معي على واتساب
+              </a>
+              
+              <style>
+              .whatsapp-button {
+                display: inline-block;
+                background-color: #25D366;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 8px;
+                text-decoration: none;
+                font-weight: bold;
+                font-family: Arial, sans-serif;
+                transition: background 0.3s;
+              }
+              
+              .whatsapp-button:hover {
+                background-color: #1ebe5d;
+              }
+              </style>
+              
+        </div>
+        <p class="copyright">© 2025 NeonDev. All rights reserved.</p>
+    </footer>
+
+     <!-- link to JavaScript file -->
+
+     <script> document.addEventListener("DOMContentLoaded",
+    function () { const skillsSection = document.querySelector(".skills"); const skillProgress = document.querySelectorAll(".skill-progress"); const observer = new IntersectionObserver(entries => { entries.forEach(entry => { if (entry.isIntersecting) { skillProgress.forEach(bar => { const targetWidth = bar.getAttribute("data-width");
+    bar.style.width = targetWidth; });
+    observer.unobserve(skillsSection);
+     // علشان مايتكررش 
+    } }); }, { threshold: 0.4 
+        // يبدأ لما يظهر 40% من العنصر 
+        }); observer.observe(skillsSection); }); </script>
+
+</body>
+</html>
